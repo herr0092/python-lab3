@@ -10,6 +10,6 @@ print('===================')
 minimun = int(input('Enter miles driven: '))
 galons  = int( input('Enter number of gallons used: ') )
 
-mpg = minimun * galons
+mpg =  round(minimun / galons, 2)
 
 print('MPG is:', mpg )
